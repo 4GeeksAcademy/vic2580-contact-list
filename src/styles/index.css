@@ -1,3 +1,104 @@
-/* 
-    General Styles
-*/
+img {
+    width: 150px;
+    height: 150px;
+    margin-top: 25px;
+}
+
+body {
+    background-image: linear-gradient(rgb(30, 30, 30), rgb(50, 50, 50), rgb(30, 30, 30), rgb(50, 50, 50));
+    color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    font-weight: bold;
+    color: #b0b0b0;
+}
+
+.code {
+    color: #007acc;
+}
+
+.me {
+    color: #ff4c4c;
+}
+
+.react {
+    color: #61dafb;
+}
+
+.context {
+    color: #28a745;
+}
+
+a {
+    text-decoration: none;
+    color: #d1d1d1;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #61dafb;
+}
+
+.navbar-brand {
+    margin: 20px 0px 0px 20px;
+    color: #ffffff;
+}
+
+.btn {
+    border: 1px solid #333;
+    margin: 10px 5px 0px 0px;
+    box-shadow: 2px 2px 1px 1px #000;
+    font-weight: bold;
+    background-color: #444;
+    color: #ffffff;
+}
+
+.btn:active {
+    transform: translateY(2px);
+}
+
+.editDelete {
+    margin-top: 40px;
+}
+
+.editDelete .btn:first-child {
+    background-image: linear-gradient(to bottom right, #555, #777, #555, #777, #555);
+}
+
+.editDelete .btn:nth-child(2) {
+    background-image: linear-gradient(to bottom right, #333, #555, #333, #555, #333);
+}
+
+.navbar .btn {
+    background-image: linear-gradient(to bottom right, #006400, #228b22, #006400, #228b22);
+}
+
+.list-group-item {
+    margin-top: 10px;
+    box-shadow: 4px 4px 3px 2px #000;
+    background-color: #333;
+    color: #fff;
+}
+
+.form-group {
+    font-weight: bold;
+    color: #fff;
+}
+
+h1 {
+    font-weight: bold;
+    background: linear-gradient(to bottom right, #555 0%, #777 17%, #555 33%, #777 50%, #555 67%, #777 83%, #555 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar {
+    border: 1px solid #555;
+    background-color: #222;
+}
+
+.modal-content {
+    color: #000;
+}
